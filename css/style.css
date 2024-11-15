@@ -1,0 +1,67 @@
+:root {
+  --Blanco_antiguo: #faf9f6;
+  --Gris_pizarra: #2e2e2e;
+  --Marfil: #fffaf0;
+  --Gris_perla: #e0e0e0;
+  --Negro_carbon: #222222;
+  --Azul_lavanda: #c5cae9;
+  --Verde_menta: #98ff98;
+  --Rosa_cuarzo: #f7cac9;
+  --Amarillo_suave: #fffacd;
+  --Beige_arena: #f5f5dc;
+  --Azul_real: #4169e1;
+  --Naranja_coral: #ff6f61;
+  --Verde_esmeralda: #50c878;
+  --Amarillo_dorado: #ffd700;
+  --Rojo_carmín: #960018;
+  --Azul_medianoche: #191970;
+  --Verde_bosque: #228b22;
+  --Rojo_vino: #800000;
+  --Gris_oscuro: #333333;
+  --Azul_acero: #4682b4;
+  --Blanco_humo: #f5f5f5;
+  --Verde_oliva_claro: #b5c58f;
+  --Gris_claro: #d3d3d3;
+  --Negro_ónix: #353839;
+  --Azul_grisáceo: #b0c4de;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  margin: 1rem;
+}
+
+.navegador {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: var(--Azul_acero);
+  width: 100%;
+  border-radius: 1rem;
+  box-shadow: 5px 5px 2px 0px var(--Gris_oscuro);
+}
+
+.navegador_enlaces {
+  color: var(--Beige_arena);
+  text-decoration: none;
+}
+
+.navegador_enlaces:hover {
+  color: var(--Amarillo_dorado);
+  background-color: var(--Azul_medianoche);
+  border-radius: 1rem;
+  padding: 1rem;
+  text-decoration: underline;
+}
+
+.navegador_enlaces--activo {
+  color: var(--Amarillo_dorado);
+  background-color: var(--Negro_carbon);
+  border-radius: 1rem;
+  padding: 1rem;
+}
