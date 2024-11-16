@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+
 :root {
   --Blanco_antiguo: #faf9f6;
   --Gris_pizarra: #2e2e2e;
@@ -47,9 +49,10 @@ body {
   flex-direction: row;
   justify-content: space-around;
   background-color: var(--Azul_acero);
-  width: 100%;
+  width: 90%;
   border-radius: 1rem;
   box-shadow: 5px 5px 2px 0px var(--Gris_oscuro);
+  margin: 0 auto;
 }
 
 .navegador_enlaces {
@@ -70,4 +73,41 @@ body {
   background-color: var(--Negro_carbon);
   border-radius: 1rem;
   padding: 1rem;
+}
+
+.contenedor_banner {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  max-width: 120rem;
+  margin: 0 auto;
+  margin-top: 1rem;
+  width: 90%;
+}
+
+.banner {
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 1rem;
+  background-position: center;
+  height: 300px;
+  margin-top: 1rem;
+  width: 90%;
+}
+
+#carouselExampleRide {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.carousel-inner img {
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.carrusel {
+  width: 600px;
+  height: 350px;
+  object-fit: cover;
 }
