@@ -169,3 +169,30 @@ body {
 .parrafos_informacion {
   text-align: justify;
 }
+
+.nav_footer a {
+  color: #000;
+  transition: all 0.3s ease;
+}
+
+.nav_footer a:hover {
+  color: var(--Azul_real);
+  text-decoration: underline;
+  transform: scale(1.05);
+}
+
+.boton {
+  background-color: var(--Gris_oscuro);
+  color: var(--Amarillo_suave);
+  padding: 1rem;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  display: inline-block;
+}
+
+.boton:hover {
+  background-color: var(--Gris_claro);
+  color: var(--Azul_medianoche);
+  transform: scale(1.1);
+}
