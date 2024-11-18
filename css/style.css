@@ -165,3 +165,7 @@ body {
   transform: scale(1.3);
   color: #007bff;
 }
+
+.parrafos_informacion {
+  text-align: justify;
+}
