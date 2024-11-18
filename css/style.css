@@ -148,6 +148,10 @@ body {
   padding-top: 1rem;
 }
 
+.footer_bg {
+  background-color: var(--Gris_claro);
+}
+
 .footer_icono a i {
   font-size: 3rem;
   margin: 0 1rem;
