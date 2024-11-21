@@ -11,6 +11,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
@@ -18,7 +19,7 @@
   </head>
   <body>
     <header class="d-block text-center mb-5">
-      <h1 class="titulo_principal">Desastres naturales</h1>
+      <h1 class="titulo_principal">Prevencion y seguridad</h1>
     </header>
 
     <div class="col-12 p-2">
@@ -26,7 +27,7 @@
         <a
           class="navegador_enlaces col-md-3 col-12 text-center p-2"
           href="index.html"
-          >Home</a
+          >Inicio</a
         >
         <a
           class="navegador_enlaces col-md-3 col-12 text-center p-2"
@@ -59,8 +60,8 @@
         <div class="row justify-content-center">
           <!-- Tarjeta de ventana modal #1 -->
           <div id="incendios" class="col-md-6 col-lg-4 mb-4">
-            <div class="card text-center">
-              <div class="card-body">
+            <div class="card text-center bg_cards_pre">
+              <div class="card-body bg_cards_pre">
                 <div class="mb-3">
                   <i class="bi bi-fire fs-1 text-danger"></i>
                 </div>
@@ -98,7 +99,7 @@
           <!-- Tarjeta de ventana modal #2 -->
           <div id="terremotos" class="col-md-6 col-lg-4 mb-4">
             <div class="card text-center">
-              <div class="card-body">
+              <div class="card-body bg_cards_pre">
                 <div class="mb-3">
                   <i class="bi bi-graph-up fs-1 text-warning"></i>
                 </div>
@@ -133,14 +134,12 @@
           <!-- Tarjeta de ventana modal #3 -->
           <div id="inundaciones" class="col-md-6 col-lg-4 mb-4">
             <div class="card text-center">
-              <div class="card-body">
+              <div class="card-body bg_cards_pre">
                 <div class="mb-3">
                   <i class="bi bi-droplet fs-1 text-info"></i>
                 </div>
                 <h5 class="card-title">Inundaciones</h5>
-                <p class="card-text">
-                  Consejos útiles para enfrentar inundaciones.
-                </p>
+                <p>Consejos útiles para enfrentar inundaciones.</p>
                 <div>
                   <button
                     class="btn btn-outline-primary btn-lg mx-1"
@@ -170,7 +169,7 @@
           <!-- Tarjeta de ventana modal #4-->
           <div id="huracanes" class="col-md-6 col-lg-4 mb-4">
             <div class="card text-center">
-              <div class="card-body">
+              <div class="card-body bg_cards_pre">
                 <div class="mb-3">
                   <i class="bi bi-wind fs-1 text-secondary"></i>
                 </div>
@@ -216,8 +215,8 @@
       >
         <div class="modal-dialog modal-lg">
           <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="modalAntes1Label">
+            <div class="modal-header bg-primary">
+              <h5 class="modal-title text-white fs-1" id="modalAntes1Label">
                 Antes de Incendios Forestales
               </h5>
               <button
@@ -227,26 +226,32 @@
                 aria-label="Close"
               ></button>
             </div>
-            <div class="modal-body">
+            <div class="modal-body bg-dark">
               <div class="card shadow-lg my-5">
-                <div class="card-body">
-                  <div class="card-header bg-warning text-white">
-                    <h2 class="mb-0">Antes de un incendio :</h2>
+                <div class="card-body bg-dark">
+                  <div class="card-header bg-warning">
+                    <h2 class="mb-0 text-dark">Antes de un incendio :</h2>
                   </div>
-                  <ol class="list-group list-group-numbered">
-                    <li class="list-group-item">
-                      <h3>Preparación del hogar :</h3>
+                  <ol class="list-group list-group-numbered bg-dark">
+                    <li class="list-group-item bg-dark texto_pre_v_modal">
+                      <h3 class="subtitulos_v_modal_pre">
+                        Preparación del hogar :
+                      </h3>
                       <ul>
                         <li>
                           <p>
-                            <strong>Instale detectores de humo :</strong>
+                            <strong class="texto_negrita_pre_v_modal"
+                              >Instale detectores de humo :</strong
+                            >
                             Asegúrese de que estén en cada nivel de la casa y en
                             las habitaciones donde se duerme.
                           </p>
                         </li>
                         <li>
                           <p>
-                            <strong>Prepare un plan de evacuación :</strong>
+                            <strong class="texto_negrita_pre_v_modal"
+                              >Prepare un plan de evacuación :</strong
+                            >
                             Practique con su familia una ruta de evacuación.
                             Diez identificados los puntos de reunión y asegúrese
                             de que todos sepan cómo salir rápidamente.
@@ -254,15 +259,17 @@
                         </li>
                         <li>
                           <p>
-                            <strong>Ten un kit de emergencia :</strong> Incluye
-                            linternas, baterías, agua, alimentos no perecederos,
-                            medicamentos esenciales, documentos importantes y un
-                            teléfono móvil cargado.
+                            <strong class="texto_negrita_pre_v_modal"
+                              >Ten un kit de emergencia :</strong
+                            >
+                            Incluye linternas, baterías, agua, alimentos no
+                            perecederos, medicamentos esenciales, documentos
+                            importantes y un teléfono móvil cargado.
                           </p>
                         </li>
                         <li>
                           <p>
-                            <strong
+                            <strong class="texto_negrita_pre_v_modal"
                               >Revisa instalaciones eléctricas y gas :</strong
                             >
                             Mantén todo en buen estado y revisa las conexiones
@@ -273,26 +280,32 @@
                         </li>
                         <li>
                           <p>
-                            <strong>Elimina materiales combustibles :</strong>
+                            <strong class="texto_negrita_pre_v_modal"
+                              >Elimina materiales combustibles :</strong
+                            >
                             Retira papeles, telas o cualquier cosa inflamable
                             cerca de fuentes de calor.
                           </p>
                         </li>
                         <li>
                           <p>
-                            <strong>Mantén salidas despejadas :</strong>
+                            <strong class="texto_negrita_pre_v_modal"
+                              >Mantén salidas despejadas :</strong
+                            >
                             Asegúrese de que puertas y ventanas estén libres de
                             obstáculos para facilitar una rápida evacuación.
                           </p>
                         </li>
                       </ul>
                     </li>
-                    <li class="list-group-item">
-                      <h3>Educación y prevención :</h3>
+                    <li class="list-group-item bg-dark texto_pre_v_modal">
+                      <h3 class="subtitulos_v_modal_pre">
+                        Educación y prevención :
+                      </h3>
                       <ul>
                         <li>
                           <p>
-                            <strong
+                            <strong class="texto_negrita_pre_v_modal"
                               >Conoce el uso adecuado de extintores :</strong
                             >
                             Si tienes extintores, asegúrate de que todos los
@@ -311,7 +324,7 @@
                 </div>
               </div>
             </div>
-            <div class="modal-footer">
+            <div class="modal-footer bg-dark">
               <button
                 type="button"
                 class="btn btn-secondary"
@@ -334,8 +347,8 @@
       >
         <div class="modal-dialog modal-lg">
           <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="modalDurante1Label">
+            <div class="modal-header bg-primary">
+              <h5 class="modal-title fs-1" id="modalDurante1Label">
                 Durante Incendios Forestales
               </h5>
               <button
@@ -345,55 +358,66 @@
                 aria-label="Close"
               ></button>
             </div>
-            <div class="modal-body">
+            <div class="modal-body bg-dark">
               <div class="card shadow-lg my-5">
-                <div class="card-body">
+                <div class="card-body bg-dark">
                   <div class="card-header text-white bg-danger">
                     <h2 class="mb-0">Durante un incendio :</h2>
                   </div>
                   <ol class="list-group list-group-numbered">
-                    <li class="list-group-item">
-                      <h3>Si estás en casa :</h3>
+                    <li class="list-group-item bg-dark texto_pre_v_modal">
+                      <h3 class="subtitulos_v_modal_pre">Si estás en casa :</h3>
                       <ul>
                         <li>
                           <p>
-                            <strong>Mantén la calma :</strong> Si el incendio es
-                            pequeño y localizado, intenta usar un extintor. Si
-                            es grande o está fuera de control, abandone la casa
-                            inmediatamente.
+                            <strong class="texto_negrita_pre_v_modal"
+                              >Mantén la calma :</strong
+                            >
+                            Si el incendio es pequeño y localizado, intenta usar
+                            un extintor. Si es grande o está fuera de control,
+                            abandone la casa inmediatamente.
                           </p>
                         </li>
                         <li>
                           <p>
-                            <strong>Evacúa de inmediato :</strong> Usa las rutas
-                            de evacuación preestablecidas. Evite el uso del
-                            ascensor, ya que puede quedar atrapado por el fuego.
+                            <strong class="texto_negrita_pre_v_modal"
+                              >Evacúa de inmediato :</strong
+                            >
+                            Usa las rutas de evacuación preestablecidas. Evite
+                            el uso del ascensor, ya que puede quedar atrapado
+                            por el fuego.
                           </p>
                         </li>
                         <li>
                           <p>
-                            <strong>Cierra puertas detrás de ti :</strong> Esto
-                            ayudará a reducir la propagación del fuego.
+                            <strong class="texto_negrita_pre_v_modal"
+                              >Cierra puertas detrás de ti :</strong
+                            >
+                            Esto ayudará a reducir la propagación del fuego.
                           </p>
                         </li>
                         <li>
                           <p>
-                            <strong>No te detengas por pertenencias :</strong>
+                            <strong class="texto_negrita_pre_v_modal"
+                              >No te detengas por pertenencias :</strong
+                            >
                             Tu vida es lo más importante, así que evacua lo más
                             rápido posible.
                           </p>
                         </li>
                         <li>
                           <p>
-                            <strong>Protege tu respiración :</strong> Si hay
-                            humo, agáchate, ya que el aire más limpio está más
-                            cerca del suelo. Utilice un paño húmedo para cubrir
-                            su boca y nariz si es posible.
+                            <strong class="texto_negrita_pre_v_modal"
+                              >Protege tu respiración :</strong
+                            >
+                            Si hay humo, agáchate, ya que el aire más limpio
+                            está más cerca del suelo. Utilice un paño húmedo
+                            para cubrir su boca y nariz si es posible.
                           </p>
                         </li>
                         <li>
                           <p>
-                            <strong
+                            <strong class="texto_negrita_pre_v_modal"
                               >Llame a los servicios de emergencia :</strong
                             >
                             Marque el número de emergencia (generalmente 911)
@@ -404,26 +428,32 @@
                       </ul>
                     </li>
 
-                    <li class="list-group-item">
-                      <h3>Si estás fuera de casa :</h3>
+                    <li class="list-group-item bg-dark texto_pre_v_modal">
+                      <h3 class="subtitulos_v_modal_pre">
+                        Si estás fuera de casa :
+                      </h3>
                       <ul>
                         <li>
                           <p>
-                            <strong>No regreses a un lugar en llamas :</strong>
+                            <strong class="texto_negrita_pre_v_modal"
+                              >No regreses a un lugar en llamas :</strong
+                            >
                             Si ya has evacuado, no entres de nuevo, incluso si
                             crees que el fuego ha disminuido.
                           </p>
                         </li>
                         <li>
                           <p>
-                            <strong>Mantén distancia :</strong> Si ves un
-                            incendio, aléjate de él y no pongas en peligro tu
-                            vida.
+                            <strong class="texto_negrita_pre_v_modal"
+                              >Mantén distancia :</strong
+                            >
+                            Si ves un incendio, aléjate de él y no pongas en
+                            peligro tu vida.
                           </p>
                         </li>
                         <li>
                           <p>
-                            <strong
+                            <strong class="texto_negrita_pre_v_modal"
                               >Sigue las instrucciones de los bomberos :</strong
                             >
                             Ellos son los expertos en manejar la situación y
@@ -436,7 +466,7 @@
                 </div>
               </div>
             </div>
-            <div class="modal-footer">
+            <div class="modal-footer bg-dark">
               <button
                 type="button"
                 class="btn btn-secondary"
@@ -459,8 +489,8 @@
       >
         <div class="modal-dialog modal-lg">
           <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="modalDespues1Label">
+            <div class="modal-header bg-primary">
+              <h5 class="modal-title fs-1 text-dark" id="modalDespues1Label">
                 Después de Incendios Forestales
               </h5>
               <button
@@ -470,19 +500,21 @@
                 aria-label="Close"
               ></button>
             </div>
-            <div class="modal-body">
+            <div class="modal-body bg-dark">
               <div class="card shadow-lg my5">
-                <div class="card-body">
+                <div class="card-body bg-dark">
                   <div class="card-header bg-primary text-white">
                     <h2 class="mb-0">Después de un incendio :</h2>
                   </div>
                   <ol class="list-group list-group-numbered">
-                    <li class="list-group-item">
-                      <h3>Cuando se haya extinguido el incendio :</h3>
+                    <li class="list-group-item bg-dark texto_pre_v_modal">
+                      <h3 class="subtitulos_v_modal_pre">
+                        Cuando se haya extinguido el incendio :
+                      </h3>
                       <ul>
                         <li>
                           <p>
-                            <strong
+                            <strong class="texto_negrita_pre_v_modal"
                               >Espera la autorización de las autoridades
                               :</strong
                             >
@@ -492,8 +524,10 @@
                         </li>
                         <li>
                           <p>
-                            <strong>Verifica daños estructurales :</strong> Si
-                            regresaste a tu hogar, asegúrate de que no haya
+                            <strong class="texto_negrita_pre_v_modal"
+                              >Verifica daños estructurales :</strong
+                            >
+                            Si regresaste a tu hogar, asegúrate de que no haya
                             daños graves en la estructura que puedan poner en
                             peligro tu seguridad, como techos o paredes
                             inestables.
@@ -501,7 +535,7 @@
                         </li>
                         <li>
                           <p>
-                            <strong>
+                            <strong class="texto_negrita_pre_v_modal">
                               Desconecte el gas y la electricidad :</strong
                             >
                             Si aún no lo han hecho las autoridades, asegúrese de
@@ -512,19 +546,23 @@
                       </ul>
                     </li>
 
-                    <li class="list-group-item">
-                      <h3>Evaluación de daños :</h3>
+                    <li class="list-group-item bg-dark texto_pre_v_modal">
+                      <h3 class="subtitulos_v_modal_pre">
+                        Evaluación de daños :
+                      </h3>
                       <ul>
                         <li>
                           <p>
-                            <strong>Toma fotos de los daños :</strong> Si es
-                            posible, documente todo lo que ha sido dañado para
-                            multas de seguros.
+                            <strong class="texto_negrita_pre_v_modal"
+                              >Toma fotos de los daños :</strong
+                            >
+                            Si es posible, documente todo lo que ha sido dañado
+                            para multas de seguros.
                           </p>
                         </li>
                         <li>
                           <p>
-                            <strong
+                            <strong class="texto_negrita_pre_v_modal"
                               >Evite tocar o mover objetos peligrosos :</strong
                             >
                             Algunas cosas, como cables eléctricos caídos o
@@ -535,31 +573,40 @@
                       </ul>
                     </li>
 
-                    <li class="list-group-item">
-                      <h3>Cuidado con la salud :</h3>
+                    <li class="list-group-item bg-dark texto_pre_v_modal">
+                      <h3 class="subtitulos_v_modal_pre">
+                        Cuidado con la salud :
+                      </h3>
                       <ul>
                         <li>
                           <p>
-                            <strong>Consulta con un médico :</strong> Si has
-                            inhalado humo o si tienes quemaduras, busca atención
-                            médica inmediatamente, incluso si no parece grave.
+                            <strong class="texto_negrita_pre_v_modal"
+                              >Consulta con un médico :</strong
+                            >
+                            Si has inhalado humo o si tienes quemaduras, busca
+                            atención médica inmediatamente, incluso si no parece
+                            grave.
                           </p>
                         </li>
                         <li>
                           <p>
-                            <strong>Reemplazar alimentos contaminados :</strong>
+                            <strong class="texto_negrita_pre_v_modal"
+                              >Reemplazar alimentos contaminados :</strong
+                            >
                             Si los alimentos fueron afectados por el humo o el
                             calor, no los consuma.
                           </p>
                         </li>
                       </ul>
                     </li>
-                    <li class="list-group-item">
-                      <h3>Limpieza y reconstrucción :</h3>
+                    <li class="list-group-item bg-dark texto_pre_v_modal">
+                      <h3 class="subtitulos_v_modal_pre">
+                        Limpieza y reconstrucción :
+                      </h3>
                       <ul>
                         <li>
                           <p>
-                            <strong
+                            <strong class="texto_negrita_pre_v_modal"
                               >Contrata profesionales para limpieza :</strong
                             >
                             Los expertos pueden ayudarle a limpiar el humo y los
@@ -569,30 +616,36 @@
                         </li>
                         <li>
                           <p>
-                            <strong>Evite el moho :</strong> Si el fuego provocó
-                            daños por agua, asegúrese de secar rápidamente los
-                            restos y áreas afectadas para evitar el crecimiento
-                            de moho.
+                            <strong class="texto_negrita_pre_v_modal"
+                              >Evite el moho :</strong
+                            >
+                            Si el fuego provocó daños por agua, asegúrese de
+                            secar rápidamente los restos y áreas afectadas para
+                            evitar el crecimiento de moho.
                           </p>
                         </li>
                       </ul>
                     </li>
-                    <li class="list-group-item">
-                      <h3>Apoyo emocional :</h3>
+                    <li class="list-group-item bg-dark texto_pre_v_modal">
+                      <h3 class="subtitulos_v_modal_pre">Apoyo emocional :</h3>
                       <ul>
                         <li>
                           <p>
-                            <strong>Busca apoyo psicológico :</strong> Los
-                            incendios pueden ser experiencias traumáticas, así
-                            que no dudes en buscar ayuda emocional o psicológica
-                            si lo necesitas.
+                            <strong class="texto_negrita_pre_v_modal"
+                              >Busca apoyo psicológico :</strong
+                            >
+                            Los incendios pueden ser experiencias traumáticas,
+                            así que no dudes en buscar ayuda emocional o
+                            psicológica si lo necesitas.
                           </p>
                         </li>
                         <li>
                           <p>
-                            <strong>Ayuda a otros afectados :</strong> Si
-                            conoces a alguien que también haya sufrido daños por
-                            el incendio, ofrece tu apoyo y solidaridad.
+                            <strong class="texto_negrita_pre_v_modal"
+                              >Ayuda a otros afectados :</strong
+                            >
+                            Si conoces a alguien que también haya sufrido daños
+                            por el incendio, ofrece tu apoyo y solidaridad.
                           </p>
                         </li>
                       </ul>
@@ -601,7 +654,7 @@
                 </div>
               </div>
             </div>
-            <div class="modal-footer">
+            <div class="modal-footer bg-dark">
               <button
                 type="button"
                 class="btn btn-secondary"
@@ -625,8 +678,8 @@
       >
         <div class="modal-dialog modal-lg">
           <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="modalAntes2Label">
+            <div class="modal-header bg-dark">
+              <h5 class="modal-title fs-1" id="modalAntes2Label">
                 Antes de un terremoto
               </h5>
               <button
@@ -636,12 +689,12 @@
                 aria-label="Close"
               ></button>
             </div>
-            <div class="modal-body">
-              <div class="card shadow-lg my-5">
+            <div class="modal-body bg-dark">
+              <div class="card shadow-lg my-5 bg-dark">
                 <div class="card-header text-white bg-primary text-center">
                   <h2 class="mb-0">¿Qué hacer en caso de Sismo?</h2>
                 </div>
-                <div class="d-flex justify-content-center my-5">
+                <div class="d-flex justify-content-center my-5 bg-dark">
                   <img
                     src="img/sismo_prevencion.png"
                     alt="Imagen de un grafica de un sismo"
@@ -649,12 +702,12 @@
                   />
                 </div>
                 <div
-                  class="card-body border border-light-dark border-1 rounded-4 m-3"
+                  class="card-body border border-light-dark border-1 rounded-4 m-3 bg-dark texto_pre_v_modal"
                 >
                   <p>
                     Ya que hasta ahora no existe ninguna manera de saber cuándo
                     ocurrirá un sismo, lo mejor que podemos hacer es
-                    <b
+                    <b class="texto_negrita_pre_v_modal"
                       >informarnos y prepararnos para actuar de la mejor manera
                       cuando se produzca el próximo sismo.</b
                     >
@@ -666,22 +719,22 @@
                     Agencia Meteorológica de Japón, la Campaña “Bogotá, con los
                     pies en la tierra”, la Agencia para el Manejo de Emergencias
                     de California y otras aconsejan
-                    <b
+                    <b class="texto_negrita_pre_v_modal"
                       >las siguientes medidas para prevenir y disminuir los
                       daños causados por un sismo.</b
                     >
                   </p>
                 </div>
 
-                <div class="card-body">
+                <div class="card-body bg-dark">
                   <div class="card-header bg-warning text-white">
                     <h3 class="mb-0">ANTES</h3>
                   </div>
                   <ol class="list-group list-group-numbered">
-                    <li class="list-group-item">
+                    <li class="list-group-item bg-dark texto_pre_v_modal">
                       <p>
                         En su hogar, determine los
-                        <b
+                        <b class="texto_negrita_pre_v_modal"
                           >objetos que puedan convertirse en un peligro durante
                           un terremoto, como, por ejemplo, cuadros, espejos,
                           lámparas, macetas colgantes, etc.</b
@@ -690,37 +743,39 @@
                         caerle encima de ocurrir un sismo.
                       </p>
                     </li>
-                    <li class="list-group-item">
+                    <li class="list-group-item bg-dark texto_pre_v_modal">
                       <p>
-                        <b>Practique simulacros de terremoto.</b> Con
-                        anticipación, cada miembro de su familia, oficina o
+                        <b class="texto_negrita_pre_v_modal"
+                          >Practique simulacros de terremoto.</b
+                        >
+                        Con anticipación, cada miembro de su familia, oficina o
                         escuela debería saber dónde colocarse en caso de sismo;
                         por ejemplo, debajo de un escritorio o una mesa fuerte.
                       </p>
                     </li>
-                    <li class="list-group-item">
+                    <li class="list-group-item bg-dark texto_pre_v_modal">
                       <p>
-                        <b
+                        <b class="texto_negrita_pre_v_modal"
                           >Conozca dónde y cómo cerrar el paso de la
                           electricidad, el gas y el agua</b
                         >
                         en los interruptores y tomas principales.
                       </p>
                     </li>
-                    <li class="list-group-item">
+                    <li class="list-group-item bg-dark texto_pre_v_modal">
                       <p>
                         Acuerde un
-                        <b
+                        <b class="texto_negrita_pre_v_modal"
                           >teléfono de contacto fuera de la ciudad al cual los
                           miembros de su familia puedan llamar</b
                         >
                         para hacerles saber a los demás que están bien.
                       </p>
                     </li>
-                    <li class="list-group-item">
+                    <li class="list-group-item bg-dark texto_pre_v_modal">
                       <p>
                         Mantenga una
-                        <b
+                        <b class="texto_negrita_pre_v_modal"
                           >reserva de alimentos no perecibles y agua potable
                           para al menos 3 días.</b
                         >
@@ -729,7 +784,7 @@
                   </ol>
                 </div>
 
-                <div class="card-body">
+                <div class="card-body bg-dark">
                   <div class="card-header bg-info text-white">
                     <h2 class="mb-0">KIT DE EMERGENCIA:</h2>
                   </div>
@@ -737,33 +792,33 @@
                     Acostúmbrese a tener a mano una mochila con:
                   </h3>
                   <ul class="list-group">
-                    <li class="list-group-item">
+                    <li class="list-group-item bg-dark texto_pre_v_modal">
                       <span> &bull; Radio portátil</span>
                     </li>
-                    <li class="list-group-item">
+                    <li class="list-group-item bg-dark texto_pre_v_modal">
                       <span> &bull; Linterna con pilas </span>
                     </li>
-                    <li class="list-group-item">
+                    <li class="list-group-item bg-dark texto_pre_v_modal">
                       <span>&bull; Botiquín de primeros auxilios </span>
                     </li>
-                    <li class="list-group-item">
+                    <li class="list-group-item bg-dark texto_pre_v_modal">
                       <span>&bull; Agua embotellada </span>
                     </li>
-                    <li class="list-group-item">
+                    <li class="list-group-item bg-dark texto_pre_v_modal">
                       <span>&bull; Alimentos enlatados y granos secos </span>
                     </li>
-                    <li class="list-group-item">
+                    <li class="list-group-item bg-dark texto_pre_v_modal">
                       <span> &bull; Abrelatas </span>
                     </li>
-                    <li class="list-group-item">
+                    <li class="list-group-item bg-dark texto_pre_v_modal">
                       <span>
                         &bull; Una copia de sus documentos personales
                       </span>
                     </li>
-                    <li class="list-group-item">
+                    <li class="list-group-item bg-dark texto_pre_v_modal">
                       <span>&bull; Pito </span>
                     </li>
-                    <li class="list-group-item">
+                    <li class="list-group-item bg-dark texto_pre_v_modal">
                       <span>&bull; Lista de teléfonos de emergencia </span>
                     </li>
                   </ul>
@@ -793,8 +848,8 @@
       >
         <div class="modal-dialog modal-lg">
           <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="modalDurante2Label">
+            <div class="modal-header bg-dark">
+              <h5 class="modal-title fs-1" id="modalDurante2Label">
                 Durante un terremoto
               </h5>
               <button
@@ -804,11 +859,11 @@
                 aria-label="Close"
               ></button>
             </div>
-            <div class="modal-body">
-              <div class="card shadow-lg my-5">
+            <div class="modal-body bg-dark">
+              <div class="card shadow-lg my-5 bg-dark">
                 <div class="card-body">
                   <div class="card-header text-white bg-danger">
-                    <h2 class="mb-0">DURANTE</h2>
+                    <h2 class="mb-0 fs-1">DURANTE</h2>
                   </div>
                   <p class="list-group-item my-4">
                     En lo posible manténgase tranquilo y permanezca en el
@@ -816,7 +871,7 @@
                   </p>
 
                   <ol class="list-group list-group-numbered">
-                    <li class="list-group-item">
+                    <li class="list-group-item bg-dark texto_pre_v_modal">
                       <p>
                         <b class="text-danger"
                           >¡Échese al piso, cúbrase y agárrese!</b
@@ -826,26 +881,26 @@
                         Una vez allí agárrese con ambas manos de una pata.
                       </p>
                     </li>
-                    <li class="list-group-item">
+                    <li class="list-group-item bg-dark texto_pre_v_modal">
                       <p>
                         Manténgase alejado
-                        <b
+                        <b class="texto_negrita_pre_v_modal"
                           >de ventanas, vidrios, espejos, puertas exteriores o
                           paredes</b
                         >
                         y de todo lo que pueda caerle como lámparas y muebles.
                       </p>
                     </li>
-                    <li class="list-group-item">
+                    <li class="list-group-item bg-dark texto_pre_v_modal">
                       <p>
                         Si no hay una mesa o escritorio cerca de usted,
-                        <strong
+                        <strong class="texto_negrita_pre_v_modal"
                           >cúbrase la cara y la cabeza con sus brazos y agáchese
                           lejos de ventanas y estanterías.</strong
                         >
                       </p>
                     </li>
-                    <li class="list-group-item">
+                    <li class="list-group-item bg-dark texto_pre_v_modal">
                       <p>Si usted está en…</p>
                       <ul>
                         <li>
@@ -889,7 +944,7 @@
                 </div>
               </div>
             </div>
-            <div class="modal-footer">
+            <div class="modal-footer bg-dark texto_pre_v_modal">
               <button
                 type="button"
                 class="btn btn-secondary"
@@ -912,8 +967,11 @@
       >
         <div class="modal-dialog modal-lg">
           <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="modalDespues2Label">
+            <div class="modal-header bg-dark">
+              <h5
+                class="modal-title fs-1 bg-dark texto_pre_v_modal"
+                id="modalDespues2Label"
+              >
                 Después de un terremoto
               </h5>
               <button
@@ -923,14 +981,14 @@
                 aria-label="Close"
               ></button>
             </div>
-            <div class="modal-body">
+            <div class="modal-body bg-dark">
               <div class="card shadow-lg my-5">
-                <div class="card-body">
+                <div class="card-body bg-dark">
                   <div class="card-header bg-primary text-white">
                     <h2 class="mb-0">DESPUES</h2>
                   </div>
                   <ol class="list-group list-group-numbered">
-                    <li class="list-group-item">
+                    <li class="list-group-item bg-dark texto_pre_v_modal">
                       <p>Si queda atrapado en los escombros:</p>
                       <ul>
                         <li>
@@ -953,85 +1011,98 @@
                         </li>
                       </ul>
                     </li>
-                    <li class="list-group-item">
+                    <li class="list-group-item bg-dark texto_pre_v_modal">
                       <p>
                         Sepa que después de un terremoto,
-                        <b>vendrán réplicas</b>. Si el lugar donde se encontraba
-                        fue afectado por el primer temblor,
-                        <b>evite volver a él</b>. Estas réplicas por lo general
-                        son menos violentas que el terremoto principal, pero
-                        suficientemente fuertes para causar daños adicionales a
-                        estructuras debilitadas.
+                        <b class="texto_negrita_pre_v_modal">vendrán réplicas</b
+                        >. Si el lugar donde se encontraba fue afectado por el
+                        primer temblor,
+                        <b class="texto_negrita_pre_v_modal"
+                          >evite volver a él</b
+                        >. Estas réplicas por lo general son menos violentas que
+                        el terremoto principal, pero suficientemente fuertes
+                        para causar daños adicionales a estructuras debilitadas.
                       </p>
                     </li>
-                    <li class="list-group-item">
+                    <li class="list-group-item bg-dark texto_pre_v_modal">
                       <p>
                         Verifique si hay lesiones.
-                        <b
+                        <b class="texto_negrita_pre_v_modal"
                           >No intente mover a las personas que estén seriamente
                           lesionadas, a menos que estén en peligro inmediato de
                           muerte o nuevas lesiones.</b
                         >
                         Si tiene que mover a una persona inconsciente,
-                        <b>estabilice primero el cuello y la espalda</b>, y
-                        luego pida ayuda inmediatamente. Si la víctima no está
-                        respirando, coloque cuidadosamente a la víctima en
+                        <b class="texto_negrita_pre_v_modal"
+                          >estabilice primero el cuello y la espalda</b
+                        >, y luego pida ayuda inmediatamente. Si la víctima no
+                        está respirando, coloque cuidadosamente a la víctima en
                         posición para administrarle resucitación de boca a boca.
                       </p>
                     </li>
-                    <li class="list-group-item">
+                    <li class="list-group-item bg-dark texto_pre_v_modal">
                       <p>
-                        Mantenga la <b>temperatura del cuerpo</b> de la persona
-                        lesionada con una frazada, pero asegúrese de que no se
-                        caliente demasiado.
+                        Mantenga la
+                        <b class="texto_negrita_pre_v_modal"
+                          >temperatura del cuerpo</b
+                        >
+                        de la persona lesionada con una frazada, pero asegúrese
+                        de que no se caliente demasiado.
                       </p>
                     </li>
-                    <li class="list-group-item">
+                    <li class="list-group-item bg-dark texto_pre_v_modal">
                       <p>Nunca dé líquidos a una persona inconsciente.</p>
                     </li>
-                    <li class="list-group-item">
+                    <li class="list-group-item bg-dark texto_pre_v_modal">
                       <p>
                         Si la luz se corta, use linternas de batería.
-                        <b
+                        <b class="texto_negrita_pre_v_modal"
                           >No use velas ni fósforos en el interior después de un
                           terremoto</b
                         >, ya que puede haber fugas de gas
                       </p>
                     </li>
-                    <li class="list-group-item">
+                    <li class="list-group-item bg-dark texto_pre_v_modal">
                       <p>
                         Inspeccione su hogar para ver si hay
-                        <b>daños estructurales.</b> Si tiene dudas acerca de la
-                        seguridad, haga que un ingeniero civil inspeccione su
-                        casa antes de regresar.
+                        <b class="texto_negrita_pre_v_modal"
+                          >daños estructurales.</b
+                        >
+                        Si tiene dudas acerca de la seguridad, haga que un
+                        ingeniero civil inspeccione su casa antes de regresar.
                       </p>
                     </li>
-                    <li class="list-group-item">
+                    <li class="list-group-item bg-dark texto_pre_v_modal">
                       <p>
                         Limpie el suelo de medicinas, blanqueadores, gasolina y
                         otros líquidos inflamables derramados. Si se detectan
                         vapores de gasolina y el edificio no está bien
                         ventilado, salga inmediatamente.
-                        <b
+                        <b class="texto_negrita_pre_v_modal"
                           >Si siente olor a gas o escucha un sonido de silbido o
                           soplido, abra una ventana y salga.</b
                         >
                       </p>
                     </li>
-                    <li class="list-group-item">
+                    <li class="list-group-item bg-dark texto_pre_v_modal">
                       <p>
-                        <strong>Corte la corriente eléctrica</strong>, si sabe o
-                        sospecha que hay daños.
-                        <strong>Cierre el suministro de agua</strong> en la toma
-                        principal si las tuberías de agua están dañadas. No baje
-                        el agua de los inodoros hasta que sepa que el
-                        alcantarillado está en buenas condiciones.
+                        <strong class="texto_negrita_pre_v_modal"
+                          >Corte la corriente eléctrica</strong
+                        >, si sabe o sospecha que hay daños.
+                        <strong class="texto_negrita_pre_v_modal"
+                          >Cierre el suministro de agua</strong
+                        >
+                        en la toma principal si las tuberías de agua están
+                        dañadas. No baje el agua de los inodoros hasta que sepa
+                        que el alcantarillado está en buenas condiciones.
                       </p>
                     </li>
-                    <li class="list-group-item">
+                    <li class="list-group-item bg-dark texto_pre_v_modal">
                       <p>
                         Abra los gabinetes con cuidado, ya que los
-                        <strong>objetos pueden caer de los estantes</strong>.
+                        <strong class="texto_negrita_pre_v_modal"
+                          >objetos pueden caer de los estantes</strong
+                        >.
                       </p>
                     </li>
                   </ol>
@@ -1050,7 +1121,7 @@
                 </div>
               </div>
             </div>
-            <div class="modal-footer">
+            <div class="modal-footer bg-dark">
               <button
                 type="button"
                 class="btn btn-secondary"
@@ -1073,8 +1144,8 @@
       >
         <div class="modal-dialog modal-lg">
           <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="modalAntes4Label">
+            <div class="modal-header bg-dark">
+              <h5 class="modal-title fs-1" id="modalAntes4Label">
                 Antes de un huracan
               </h5>
               <button
@@ -1084,15 +1155,21 @@
                 aria-label="Close"
               ></button>
             </div>
-            <div class="modal-body">
+            <div class="modal-body bg-dark">
               <div class="card shadow-lg">
-                <div class="card-header bg-warning text-white">
-                  <h2 class="mb-0">Prevención ante un huracán</h2>
+                <div class="card-header bg-warning text-white bg-dark">
+                  <h2 class="mb-0">Prevención antes de un huracán</h2>
                 </div>
-                <div class="card-body">
+                <div class="card-body bg-dark">
                   <ol class="list-group list-group-numbered">
-                    <li class="list-group-item">
-                      <h3 class="fw-bold">Mantente informado:</h3>
+                    <li
+                      class="list-group-item bg-dark texto_pre_v_modal texto_pre_v_modal"
+                    >
+                      <h3
+                        class="fw-bold subtitulos_v_modal_pre subtitulos_v_modal_pre"
+                      >
+                        Mantente informado:
+                      </h3>
                       <ul class="list-unstyled">
                         <li class="d-flex align-items-start mb-2">
                           <i
@@ -1100,7 +1177,7 @@
                             aria-hidden="true"
                           ></i>
                           <p>
-                            <strong
+                            <strong class="texto_negrita_pre_v_modal"
                               >Monitorea las alertas meteorológicas:</strong
                             >
                             Escucha las advertencias y alertas emitidas por las
@@ -1114,7 +1191,7 @@
                             aria-hidden="true"
                           ></i>
                           <p>
-                            <strong
+                            <strong class="texto_negrita_pre_v_modal"
                               >Descarga aplicaciones y sigue redes
                               sociales:</strong
                             >
@@ -1125,50 +1202,64 @@
                         </li>
                       </ul>
                     </li>
-                    <li class="list-group-item">
-                      <h3 class="fw-bold">Preparar un plan de emergencia:</h3>
+                    <li class="list-group-item bg-dark texto_pre_v_modal">
+                      <h3 class="fw-bold subtitulos_v_modal_pre">
+                        Preparar un plan de emergencia:
+                      </h3>
                       <ul class="list-unstyled">
-                        <li class="d-flex align-items-start mb-2">
+                        <li class="d-flex align-items-start mb-2 bg-dark">
                           <i
                             class="bi bi-signpost-2 me-3 text-warning"
                             aria-hidden="true"
                           ></i>
                           <p>
-                            <strong>Evacuación:</strong> Conoce las rutas de
-                            evacuación más cercanas y los lugares de refugio
-                            disponibles. Practica el plan de evacuación con tu
-                            familia.
+                            <strong class="texto_negrita_pre_v_modal"
+                              >Evacuación:</strong
+                            >
+                            Conoce las rutas de evacuación más cercanas y los
+                            lugares de refugio disponibles. Practica el plan de
+                            evacuación con tu familia.
                           </p>
                         </li>
-                        <li class="d-flex align-items-start mb-2">
+                        <li
+                          class="d-flex align-items-start mb-2 bg-dark texto_pre_v_modal"
+                        >
                           <i
                             class="bi bi-backpack me-3 text-info"
                             aria-hidden="true"
                           ></i>
                           <p>
-                            <strong>Kit de emergencia:</strong> Ten a mano un
-                            kit con alimentos no perecederos, agua,
-                            medicamentos, linternas, baterías, un botiquín de
-                            primeros auxilios, documentos importantes,
+                            <strong class="texto_negrita_pre_v_modal"
+                              >Kit de emergencia:</strong
+                            >
+                            Ten a mano un kit con alimentos no perecederos,
+                            agua, medicamentos, linternas, baterías, un botiquín
+                            de primeros auxilios, documentos importantes,
                             cargadores y un radio de baterías.
                           </p>
                         </li>
-                        <li class="d-flex align-items-start">
+                        <li
+                          class="d-flex align-items-start bg-dark texto_pre_v_modal"
+                        >
                           <i
                             class="bi bi-chat-dots me-3 text-primary"
                             aria-hidden="true"
                           ></i>
                           <p>
-                            <strong>Comunicaciones:</strong> Establece un
-                            sistema para mantener el contacto con familiares y
-                            amigos en caso de que se corte el servicio
-                            telefónico.
+                            <strong class="texto_negrita_pre_v_modal"
+                              >Comunicaciones:</strong
+                            >
+                            Establece un sistema para mantener el contacto con
+                            familiares y amigos en caso de que se corte el
+                            servicio telefónico.
                           </p>
                         </li>
                       </ul>
                     </li>
-                    <li class="list-group-item">
-                      <h3 class="fw-bold">Asegura tu hogar:</h3>
+                    <li class="list-group-item bg-dark texto_pre_v_modal">
+                      <h3 class="fw-bold subtitulos_v_modal_pre">
+                        Asegura tu hogar:
+                      </h3>
                       <ul class="list-unstyled">
                         <li class="d-flex align-items-start mb-2">
                           <i
@@ -1176,51 +1267,65 @@
                             aria-hidden="true"
                           ></i>
                           <p>
-                            <strong>Refuerza ventanas y puertas:</strong> Coloca
-                            contraventanas o utiliza tablas de madera para
-                            proteger las ventanas y puertas de los vientos
+                            <strong class="texto_negrita_pre_v_modal"
+                              >Refuerza ventanas y puertas:</strong
+                            >
+                            Coloca contraventanas o utiliza tablas de madera
+                            para proteger las ventanas y puertas de los vientos
                             fuertes.
                           </p>
                         </li>
-                        <li class="d-flex align-items-start mb-2">
+                        <li
+                          class="d-flex align-items-start mb-2 bg-dark texto_pre_v_modal"
+                        >
                           <i
                             class="bi bi-droplet me-3 text-info"
                             aria-hidden="true"
                           ></i>
                           <p>
-                            <strong
+                            <strong class="texto_negrita_pre_v_modal"
                               >Limpia las alcantarillas y desagües:</strong
                             >
                             Asegúrate de que el agua pueda fluir sin
                             obstrucciones para evitar inundaciones.
                           </p>
                         </li>
-                        <li class="d-flex align-items-start mb-2">
+                        <li
+                          class="d-flex align-items-start mb-2 bg-dark texto_pre_v_modal"
+                        >
                           <i
                             class="bi bi-house-check me-3 text-success"
                             aria-hidden="true"
                           ></i>
                           <p>
-                            <strong>Revisa el techo y paredes:</strong>
+                            <strong class="texto_negrita_pre_v_modal"
+                              >Revisa el techo y paredes:</strong
+                            >
                             Asegúrate de que no haya daños anteriores que puedan
                             empeorar con la tormenta.
                           </p>
                         </li>
-                        <li class="d-flex align-items-start">
+                        <li
+                          class="d-flex align-items-start bg-dark texto_pre_v_modal"
+                        >
                           <i
                             class="bi bi-x-octagon me-3 text-danger"
                             aria-hidden="true"
                           ></i>
                           <p>
-                            <strong>Evita el uso de vidrios rotos:</strong> Si
-                            se presentan vientos fuertes, no te acerques a
+                            <strong class="texto_negrita_pre_v_modal"
+                              >Evita el uso de vidrios rotos:</strong
+                            >
+                            Si se presentan vientos fuertes, no te acerques a
                             ventanas o puertas de vidrio.
                           </p>
                         </li>
                       </ul>
                     </li>
-                    <li class="list-group-item">
-                      <h3 class="fw-bold">Prepara a tus mascotas:</h3>
+                    <li class="list-group-item bg-dark texto_pre_v_modal">
+                      <h3 class="fw-bold subtitulos_v_modal_pre">
+                        Prepara a tus mascotas:
+                      </h3>
                       <ul class="list-unstyled">
                         <li class="d-flex align-items-start mb-2">
                           <i
@@ -1228,26 +1333,32 @@
                             aria-hidden="true"
                           ></i>
                           <p>
-                            <strong>Refugio para mascotas:</strong> Asegúrate de
-                            que tus mascotas tengan un lugar seguro en el hogar
-                            o en refugios designados.
+                            <strong class="texto_negrita_pre_v_modal"
+                              >Refugio para mascotas:</strong
+                            >
+                            Asegúrate de que tus mascotas tengan un lugar seguro
+                            en el hogar o en refugios designados.
                           </p>
                         </li>
-                        <li class="d-flex align-items-start">
+                        <li
+                          class="d-flex align-items-start bg-dark texto_pre_v_modal"
+                        >
                           <i
                             class="bi bi-bag-fill me-3 text-success"
                             aria-hidden="true"
                           ></i>
                           <p>
-                            <strong>Kit para mascotas:</strong> Incluye comida,
-                            agua, medicamentos, correa y cualquier artículo
-                            esencial.
+                            <strong class="texto_negrita_pre_v_modal"
+                              >Kit para mascotas:</strong
+                            >
+                            Incluye comida, agua, medicamentos, correa y
+                            cualquier artículo esencial.
                           </p>
                         </li>
                       </ul>
                     </li>
-                    <li class="list-group-item">
-                      <h3 class="fw-bold">
+                    <li class="list-group-item bg-dark texto_pre_v_modal">
+                      <h3 class="fw-bold subtitulos_v_modal_pre">
                         Evita la acumulación de objetos peligrosos:
                       </h3>
                       <ul class="list-unstyled">
@@ -1257,7 +1368,9 @@
                             aria-hidden="true"
                           ></i>
                           <p>
-                            <strong>Retira objetos del exterior:</strong>
+                            <strong class="texto_negrita_pre_v_modal"
+                              >Retira objetos del exterior:</strong
+                            >
                             Muebles, ramas y otros objetos pueden convertirse en
                             proyectiles durante los vientos fuertes.
                           </p>
@@ -1268,7 +1381,7 @@
                 </div>
               </div>
             </div>
-            <div class="modal-footer">
+            <div class="modal-footer bg-dark">
               <button
                 type="button"
                 class="btn btn-secondary"
@@ -1291,8 +1404,8 @@
       >
         <div class="modal-dialog modal-lg">
           <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="modalDurante4Label">
+            <div class="modal-header bg-dark">
+              <h5 class="modal-title fs-1" id="modalDurante4Label">
                 Durante un huracan
               </h5>
               <button
@@ -1302,123 +1415,159 @@
                 aria-label="Close"
               ></button>
             </div>
-            <div class="modal-body">
+            <div class="modal-body bg-dark">
               <div class="card shadow-lg my-5">
                 <div class="card-header bg-danger text-white">
                   <h2 class="mb-0">Reacción durante el huracán:</h2>
                 </div>
                 <ol class="list-group list-group-numbered">
-                  <li class="list-group-item">
-                    <h3 class="fw-bold">
+                  <li class="list-group-item bg-dark texto_pre_v_modal">
+                    <h3 class="fw-bold subtitulos_v_modal_pre">
                       <i class="bi bi-megaphone text-primary me-2"></i> Escucha
                       las instrucciones de las autoridades:
                     </h3>
                     <ul class="list-unstyled">
-                      <li class="d-flex align-items-start">
+                      <li
+                        class="d-flex align-items-start bg-dark texto_pre_v_modal"
+                      >
                         <p>
-                          <strong>Evacuación:</strong> Si las autoridades
-                          indican la evacuación, hágalo inmediatamente. No
-                          esperes hasta que sea demasiado tarde.
+                          <strong class="texto_negrita_pre_v_modal"
+                            >Evacuación:</strong
+                          >
+                          Si las autoridades indican la evacuación, hágalo
+                          inmediatamente. No esperes hasta que sea demasiado
+                          tarde.
                         </p>
                       </li>
-                      <li class="d-flex align-items-start">
+                      <li
+                        class="d-flex align-items-start bg-dark texto_pre_v_modal"
+                      >
                         <p>
-                          <strong>Refugio:</strong> Si no puedes evacuar,
-                          quédate en un lugar seguro, preferiblemente en el
-                          centro de la vivienda y lejos de ventanas.
+                          <strong class="texto_negrita_pre_v_modal"
+                            >Refugio:</strong
+                          >
+                          Si no puedes evacuar, quédate en un lugar seguro,
+                          preferiblemente en el centro de la vivienda y lejos de
+                          ventanas.
                         </p>
                       </li>
                     </ul>
                   </li>
 
-                  <li class="list-group-item">
-                    <h3 class="fw-bold">
+                  <li class="list-group-item bg-dark texto_pre_v_modal">
+                    <h3 class="fw-bold subtitulos_v_modal_pre">
                       <i class="bi bi-list-check text-warning me-2"></i> Mantén
                       la calma y sigue el plan de emergencia:
                     </h3>
                     <ul class="list-unstyled">
-                      <li class="d-flex align-items-start">
+                      <li
+                        class="d-flex align-items-start bg-dark texto_pre_v_modal"
+                      >
                         <p>
-                          <strong>Comunicación:</strong> Mantén contacto con
-                          familiares para asegurarte de que todos estén bien.
+                          <strong class="texto_negrita_pre_v_modal"
+                            >Comunicación:</strong
+                          >
+                          Mantén contacto con familiares para asegurarte de que
+                          todos estén bien.
                         </p>
                       </li>
-                      <li class="d-flex align-items-start">
+                      <li
+                        class="d-flex align-items-start bg-dark texto_pre_v_modal"
+                      >
                         <i class="bi bi-door-closed text-secondary me-3"></i>
                         <p>
-                          <strong>Refugio en el interior:</strong> Quédate en
-                          una habitación sin ventanas o en un sótano, si es
-                          posible. Evite usar el teléfono, a menos que sea una
-                          emergencia.
+                          <strong class="texto_negrita_pre_v_modal"
+                            >Refugio en el interior:</strong
+                          >
+                          Quédate en una habitación sin ventanas o en un sótano,
+                          si es posible. Evite usar el teléfono, a menos que sea
+                          una emergencia.
                         </p>
                       </li>
                     </ul>
                   </li>
 
-                  <li class="list-group-item">
-                    <h3 class="fw-bold">
+                  <li class="list-group-item bg-dark texto_pre_v_modal">
+                    <h3 class="fw-bold subtitulos_v_modal_pre">
                       <i class="bi bi-water text-info me-2"></i> No te acerques
                       al agua:
                     </h3>
                     <ul class="list-unstyled">
                       <li class="d-flex align-items-start">
                         <p>
-                          <strong>Inundaciones:</strong> Evita caminar o
-                          conducir en áreas inundadas. El agua puede ser más
-                          profunda y rápida de lo que parece, y puede contener
-                          objetos peligrosos o productos químicos.
+                          <strong class="texto_negrita_pre_v_modal"
+                            >Inundaciones:</strong
+                          >
+                          Evita caminar o conducir en áreas inundadas. El agua
+                          puede ser más profunda y rápida de lo que parece, y
+                          puede contener objetos peligrosos o productos
+                          químicos.
                         </p>
                       </li>
                     </ul>
                   </li>
 
-                  <li class="list-group-item">
-                    <h3 class="fw-bold">
+                  <li class="list-group-item bg-dark texto_pre_v_modal">
+                    <h3 class="fw-bold subtitulos_v_modal_pre">
                       <i class="bi bi-plug text-danger me-2"></i> Apaga los
                       electrodomésticos:
                     </h3>
                     <ul class="list-unstyled">
-                      <li class="d-flex align-items-start">
+                      <li
+                        class="d-flex align-items-start bg-dark texto_pre_v_modal"
+                      >
                         <p>
-                          <strong>Corte de energía:</strong> Si la energía
-                          eléctrica se corta, apaga los electrodomésticos
-                          grandes y los aparatos electrónicos para evitar daños
-                          cuando la electricidad vuelva.
+                          <strong class="texto_negrita_pre_v_modal"
+                            >Corte de energía:</strong
+                          >
+                          Si la energía eléctrica se corta, apaga los
+                          electrodomésticos grandes y los aparatos electrónicos
+                          para evitar daños cuando la electricidad vuelva.
                         </p>
                       </li>
                     </ul>
                   </li>
 
-                  <li class="list-group-item">
-                    <h3 class="fw-bold">
+                  <li class="list-group-item bg-dark texto_pre_v_modal">
+                    <h3 class="fw-bold subtitulos_v_modal_pre">
                       <i class="bi bi-shield-check text-success me-2"></i>
                       Mantén la seguridad en todo momento:
                     </h3>
                     <ul class="list-unstyled">
-                      <li class="d-flex align-items-start">
+                      <li
+                        class="d-flex align-items-start bg-dark texto_pre_v_modal"
+                      >
                         <p>
-                          <strong>Evita ventanas y puertas:</strong> No te
-                          acerques a ventanas o puertas de vidrio, ya que pueden
-                          romperse por el viento.
+                          <strong class="texto_negrita_pre_v_modal"
+                            >Evita ventanas y puertas:</strong
+                          >
+                          No te acerques a ventanas o puertas de vidrio, ya que
+                          pueden romperse por el viento.
                         </p>
                       </li>
-                      <li class="d-flex align-items-start">
+                      <li
+                        class="d-flex align-items-start bg-dark texto_pre_v_modal"
+                      >
                         <p>
-                          <strong>No uses velas:</strong> Evita el uso de velas
-                          para iluminarte, ya que pueden provocar incendios. Usa
-                          linternas de batería.
+                          <strong class="texto_negrita_pre_v_modal"
+                            >No uses velas:</strong
+                          >
+                          Evita el uso de velas para iluminarte, ya que pueden
+                          provocar incendios. Usa linternas de batería.
                         </p>
                       </li>
                     </ul>
                   </li>
 
-                  <li class="list-group-item">
-                    <h3 class="fw-bold">
+                  <li class="list-group-item bg-dark texto_pre_v_modal">
+                    <h3 class="fw-bold subtitulos_v_modal_pre">
                       <i class="bi bi-trash text-danger me-2"></i> Evita la
                       acumulación de objetos peligrosos:
                     </h3>
                     <ul class="list-unstyled">
-                      <li class="d-flex align-items-start">
+                      <li
+                        class="d-flex align-items-start bg-dark texto_pre_v_modal"
+                      >
                         <p>
                           <strong>Retira objetos del exterior:</strong> Muebles,
                           ramas y otros objetos pueden convertirse en
@@ -1430,7 +1579,7 @@
                 </ol>
               </div>
             </div>
-            <div class="modal-footer">
+            <div class="modal-footer bg-dark">
               <button
                 type="button"
                 class="btn btn-secondary"
@@ -1453,8 +1602,8 @@
       >
         <div class="modal-dialog modal-lg">
           <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="modalDespues4Label">
+            <div class="modal-header bg-dark">
+              <h5 class="modal-title fs-1" id="modalDespues4Label">
                 Después de huracan
               </h5>
               <button
@@ -1464,29 +1613,35 @@
                 aria-label="Close"
               ></button>
             </div>
-            <div class="modal-body">
+            <div class="modal-body bg-dark">
               <div class="card shadow-lg my-5">
                 <div class="card-header bg-primary text-white">
                   <h2 class="mb-0">Después del huracán:</h2>
                 </div>
-                <div class="card-body">
+                <div class="card-body bg-dark">
                   <ol class="list-group list-group-numbered">
-                    <li class="list-group-item">
-                      <h3 class="fw-bold">
+                    <li class="list-group-item bg-dark texto_pre_v_modal">
+                      <h3 class="fw-bold subtitulos_v_modal_pre">
                         <i class="bi bi-tools text-primary me-2"></i> Revise los
                         daños con precaución:
                       </h3>
                       <ul class="list-unstyled">
-                        <li class="d-flex align-items-start">
+                        <li class="d-flex align-items-start texto_pre_v_modal">
                           <p>
-                            <strong>Esperar a la señal de seguridad:</strong> No
-                            salgas hasta que las autoridades indiquen que es
+                            <strong class="texto_negrita_pre_v_modal"
+                              >Esperar a la señal de seguridad:</strong
+                            >
+                            No salgas hasta que las autoridades indiquen que es
                             seguro hacerlo.
                           </p>
                         </li>
-                        <li class="d-flex align-items-start">
+                        <li
+                          class="d-flex align-items-start bg-dark texto_pre_v_modal"
+                        >
                           <p>
-                            <strong>Revisa daños estructurales:</strong>
+                            <strong class="texto_negrita_pre_v_modal"
+                              >Revisa daños estructurales:</strong
+                            >
                             Verifica que tu hogar esté en condiciones seguras.
                             Si hay daños significativos, aléjate y contacta con
                             las autoridades.
@@ -1495,8 +1650,8 @@
                       </ul>
                     </li>
 
-                    <li class="list-group-item">
-                      <h3 class="fw-bold">
+                    <li class="list-group-item bg-dark texto_pre_v_modal">
+                      <h3 class="fw-bold subtitulos_v_modal_pre">
                         <i
                           class="bi bi-exclamation-octagon text-danger me-2"
                         ></i>
@@ -1505,56 +1660,63 @@
                       <ul class="list-unstyled">
                         <li class="d-flex align-items-start">
                           <p>
-                            <strong>Peligros ocultos:</strong> El agua puede
-                            ocultar peligros como cables eléctricos caídos,
-                            objetos afilados o animales peligrosos.
+                            <strong class="texto_negrita_pre_v_modal"
+                              >Peligros ocultos:</strong
+                            >
+                            El agua puede ocultar peligros como cables
+                            eléctricos caídos, objetos afilados o animales
+                            peligrosos.
                           </p>
                         </li>
                       </ul>
                     </li>
 
-                    <li class="list-group-item">
-                      <h3 class="fw-bold">
+                    <li class="list-group-item bg-dark texto_pre_v_modal">
+                      <h3 class="fw-bold subtitulos_v_modal_pre">
                         <i class="bi bi-people text-warning me-2"></i> Mantén la
                         calma y ayuda a otros:
                       </h3>
                       <ul class="list-unstyled">
                         <li class="d-flex align-items-start">
                           <p>
-                            <strong>Apoyo a la comunidad:</strong> Si es seguro,
-                            ofrece ayuda a tus vecinos, especialmente a los más
-                            vulnerables, como personas mayores, niños y personas
-                            con discapacidad.
+                            <strong class="texto_negrita_pre_v_modal"
+                              >Apoyo a la comunidad:</strong
+                            >
+                            Si es seguro, ofrece ayuda a tus vecinos,
+                            especialmente a los más vulnerables, como personas
+                            mayores, niños y personas con discapacidad.
                           </p>
                         </li>
                       </ul>
                     </li>
 
-                    <li class="list-group-item">
-                      <h3 class="fw-bold">
+                    <li class="list-group-item bg-dark texto_pre_v_modal">
+                      <h3 class="fw-bold subtitulos_v_modal_pre">
                         <i class="bi bi-envelope text-success me-2"></i>
                         Comunica tu bienestar:
                       </h3>
                       <ul class="list-unstyled">
                         <li class="d-flex align-items-start">
                           <p>
-                            <strong>Avísales a tus seres queridos:</strong> Una
-                            vez que estés a salvo, informa a tus familiares y
-                            amigos sobre tu situación.
+                            <strong class="texto_negrita_pre_v_modal"
+                              >Avísales a tus seres queridos:</strong
+                            >
+                            Una vez que estés a salvo, informa a tus familiares
+                            y amigos sobre tu situación.
                           </p>
                         </li>
                       </ul>
                     </li>
 
-                    <li class="list-group-item">
-                      <h3 class="fw-bold">
+                    <li class="list-group-item bg-dark texto_pre_v_modal">
+                      <h3 class="fw-bold subtitulos_v_modal_pre">
                         <i class="bi bi-signpost text-secondary me-2"></i>
                         Revisa las condiciones de la carretera:
                       </h3>
                       <ul class="list-unstyled">
                         <li class="d-flex align-items-start">
                           <p>
-                            <strong
+                            <strong class="texto_negrita_pre_v_modal"
                               >No uses el automóvil si las carreteras están
                               dañadas:</strong
                             >
@@ -1568,25 +1730,25 @@
                 </div>
               </div>
 
-              <div class="card shadow-lg my-5">
-                <div class="card-header bg-info text-white">
+              <div class="card shadow-lg my-5 bg-dark">
+                <div class="card-header bg-info text-white bg-info">
                   <h2 class="mb-0">Recuerda :</h2>
                 </div>
                 <div class="card-body">
                   <ul class="list-group">
-                    <li class="list-group-item">
+                    <li class="list-group-item bg-dark texto_pre_v_modal">
                       <p>
                         La prevención y preparación anticipada son fundamentales
                         para minimizar los riesgos.
                       </p>
                     </li>
-                    <li class="list-group-item">
+                    <li class="list-group-item bg-dark texto_pre_v_modal">
                       <p>
                         La información constante y la respuesta adecuada durante
                         la tormenta son claves para la seguridad.
                       </p>
                     </li>
-                    <li class="list-group-item">
+                    <li class="list-group-item bg-dark texto_pre_v_modal">
                       <p>
                         Actuar con calma y seguir las recomendaciones de las
                         autoridades puede salvar vidas.
@@ -1596,7 +1758,7 @@
                 </div>
               </div>
             </div>
-            <div class="modal-footer">
+            <div class="modal-footer bg-dark">
               <button
                 type="button"
                 class="btn btn-secondary"
@@ -1621,8 +1783,8 @@
       >
         <div class="modal-dialog modal-lg">
           <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="modalAntes3Label">
+            <div class="modal-header bg-dark">
+              <h5 class="modal-title fs-1" id="modalAntes3Label">
                 Antes de una inundacion
               </h5>
               <button
@@ -1632,15 +1794,15 @@
                 aria-label="Close"
               ></button>
             </div>
-            <div class="modal-body">
+            <div class="modal-body bg-dark">
               <div class="card shadow-lg my-5">
-                <div class="card-body">
+                <div class="card-body bg-dark">
                   <div class="card-header bg-warning text-white mb-0">
                     <h2>Prevención antes de una inundación :</h2>
                   </div>
                   <ol class="list-group list-group-numbered">
-                    <li class="list-group-item">
-                      <h3>Conocer la zona :</h3>
+                    <li class="list-group-item bg-dark texto_pre_v_modal">
+                      <h3 class="subtitulos_v_modal_pre">Conocer la zona :</h3>
                       <ul>
                         <li>
                           <p>
@@ -1657,8 +1819,10 @@
                       </ul>
                     </li>
 
-                    <li class="list-group-item">
-                      <h3>Preparación del hogar :</h3>
+                    <li class="list-group-item bg-dark texto_pre_v_modal">
+                      <h3 class="subtitulos_v_modal_pre">
+                        Preparación del hogar :
+                      </h3>
                       <ul>
                         <li>
                           <p>
@@ -1689,8 +1853,10 @@
                       </ul>
                     </li>
 
-                    <li class="list-group-item">
-                      <h3>Planificación de evacuación :</h3>
+                    <li class="list-group-item bg-dark texto_pre_v_modal">
+                      <h3 class="subtitulos_v_modal_pre">
+                        Planificación de evacuación :
+                      </h3>
                       <ul>
                         <li>
                           <p>
@@ -1707,8 +1873,8 @@
                         </li>
                       </ul>
                     </li>
-                    <li class="list-group-item">
-                      <h3>Educación :</h3>
+                    <li class="list-group-item bg-dark texto_pre_v_modal">
+                      <h3 class="subtitulos_v_modal_pre">Educación :</h3>
                       <ul>
                         <li>
                           <p>
@@ -1729,7 +1895,7 @@
                 </div>
               </div>
             </div>
-            <div class="modal-footer">
+            <div class="modal-footer bg-dark">
               <button
                 type="button"
                 class="btn btn-secondary"
@@ -1752,8 +1918,8 @@
       >
         <div class="modal-dialog modal-lg">
           <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="modalDurante3Label">
+            <div class="modal-header bg-dark">
+              <h5 class="modal-title fs-1" id="modalDurante3Label">
                 Durante una inundacion
               </h5>
               <button
@@ -1763,15 +1929,17 @@
                 aria-label="Close"
               ></button>
             </div>
-            <div class="modal-body">
-              <div class="card shadow-lg my-5">
+            <div class="modal-body bg-dark">
+              <div class="card shadow-lg my-5 bg-dark">
                 <div class="card-body">
                   <div class="card-header bg-danger text-white">
                     <h2 class="mb-0">Durante la inundación :</h2>
                   </div>
                   <ol class="list-group list-group-numbered">
-                    <li class="list-group-item">
-                      <h3>Seguir las alertas :</h3>
+                    <li class="list-group-item bg-dark texto_pre_v_modal">
+                      <h3 class="texto_negrita_pre_v_modal">
+                        Seguir las alertas :
+                      </h3>
                       <ul>
                         <li>
                           <p>
@@ -1787,8 +1955,10 @@
                         </li>
                       </ul>
                     </li>
-                    <li class="list-group-item">
-                      <h3>Evacuación segura :</h3>
+                    <li class="list-group-item bg-dark texto_pre_v_modal">
+                      <h3 class="texto_negrita_pre_v_modal">
+                        Evacuación segura :
+                      </h3>
                       <ul>
                         <li>
                           <p>
@@ -1806,8 +1976,10 @@
                         </li>
                       </ul>
                     </li>
-                    <li class="list-group-item">
-                      <h3>Mantente a salvo en casa :</h3>
+                    <li class="list-group-item bg-dark texto_pre_v_modal">
+                      <h3 class="texto_negrita_pre_v_modal">
+                        Mantente a salvo en casa :
+                      </h3>
                       <ul>
                         <li>
                           <p>
@@ -1827,7 +1999,7 @@
                 </div>
               </div>
             </div>
-            <div class="modal-footer">
+            <div class="modal-footer bg-dark texto_pre_v_modal">
               <button
                 type="button"
                 class="btn btn-secondary"
@@ -1850,8 +2022,8 @@
       >
         <div class="modal-dialog modal-lg">
           <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="modalDespues3Label">
+            <div class="modal-header bg-dark">
+              <h5 class="modal-title fs-1" id="modalDespues3Label">
                 Después de una inundacion
               </h5>
               <button
@@ -1861,15 +2033,17 @@
                 aria-label="Close"
               ></button>
             </div>
-            <div class="modal-body">
-              <div class="card shadow-lg my-5">
+            <div class="modal-body bg-dark">
+              <div class="card shadow-lg my-5 bg-dark">
                 <div class="card-body">
                   <div class="card-header bg-primary text-white">
                     <h2 class="mb-0">Prevención después de la inundación :</h2>
                   </div>
                   <ol class="list-group list-group-numbered">
-                    <li class="list-group-item">
-                      <h3>Seguridad primero :</h3>
+                    <li class="list-group-item bg-dark texto_pre_v_modal">
+                      <h3 class="subtitulos_v_modal_pre">
+                        Seguridad primero :
+                      </h3>
                       <ul>
                         <li>
                           <p>
@@ -1891,8 +2065,10 @@
                         </li>
                       </ul>
                     </li>
-                    <li class="list-group-item">
-                      <h2>Evaluación de daños :</h2>
+                    <li class="list-group-item bg-dark texto_pre_v_modal">
+                      <h3 class="subtitulos_v_modal_pre">
+                        Evaluación de daños :
+                      </h3>
                       <ul>
                         <li>
                           <p>
@@ -1909,8 +2085,10 @@
                         </li>
                       </ul>
                     </li>
-                    <li class="list-group-item">
-                      <h3>Limpieza y desinfección :</h3>
+                    <li class="list-group-item bg-dark texto_pre_v_modal">
+                      <h3 class="subtitulos_v_modal_pre">
+                        Limpieza y desinfección :
+                      </h3>
                       <ul>
                         <li>
                           <p>
@@ -1926,8 +2104,8 @@
                         </li>
                       </ul>
                     </li>
-                    <li class="list-group-item">
-                      <h3>Ayuda externa :</h3>
+                    <li class="list-group-item bg-dark texto_pre_v_modal">
+                      <h3 class="subtitulos_v_modal_pre">Ayuda externa :</h3>
                       <ul>
                         <li>
                           <p>
@@ -1945,8 +2123,8 @@
                         </li>
                       </ul>
                     </li>
-                    <li class="list-group-item">
-                      <h3>Apoyo emocional :</h3>
+                    <li class="list-group-item bg-dark texto_pre_v_modal">
+                      <h3 class="subtitulos_v_modal_pre">Apoyo emocional :</h3>
                       <ul>
                         <li>
                           <p>
@@ -1961,7 +2139,7 @@
                 </div>
               </div>
             </div>
-            <div class="modal-footer">
+            <div class="modal-footer bg-dark">
               <button
                 type="button"
                 class="btn btn-secondary"

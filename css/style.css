@@ -24,7 +24,8 @@
   --Gris_claro: #d3d3d3;
   --Negro_ónix: #353839;
   --Azul_grisáceo: #b0c4de;
-  --negro_sombras: rgba(0, 0, 0, 0.5);
+  --blanco_sombras: rgba(255, 255, 255, 0.5);
+  --oscuro: #504b49;
 }
 
 html {
@@ -37,23 +38,31 @@ body {
   margin: 1rem;
   background-color: var(--Negro_carbon);
   color: var(--Blanco_humo);
+  font-family: "Geist Mono";
 }
 
 .titulo_principal {
   text-transform: uppercase;
   text-shadow: 2px 2px 4px var(--negro_sombras);
   letter-spacing: 0.5rem;
+  font-family: "Geist Mono";
+  font-weight: 900;
+  color: var(--Blanco_humo);
+  text-shadow: 2px 2px 4px var(--blanco_sombras);
 }
 
 .navegador {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  background-color: var(--Azul_acero);
+  background-color: var(--oscuro);
   width: 95%;
   border-radius: 1rem;
-  box-shadow: 5px 5px 2px 0px var(--Gris_oscuro);
   margin: 0 auto;
+  font-family: "Geist Mono";
+  font-weight: 900;
+  font-size: 2rem;
+  box-shadow: 0px 4px 8px var(--Azul_medianoche);
 }
 
 .navegador_enlaces {
@@ -63,7 +72,7 @@ body {
 
 .navegador_enlaces:hover {
   color: var(--Amarillo_dorado);
-  background-color: var(--Azul_medianoche);
+  background-color: var(--Verde_bosque);
   border-radius: 1rem;
   padding: 1rem;
   text-decoration: underline;
@@ -96,7 +105,7 @@ body {
   width: 95%;
 }
 
-#carouselExampleRide {
+#carousel {
   max-width: 900px;
   margin: 0 auto;
   width: auto;
@@ -124,7 +133,7 @@ body {
   text-decoration: none;
   padding: 15px 30px;
   color: var(--Blanco_antiguo);
-  background-color: var(--Azul_acero);
+  background-color: var(--oscuro);
   font-size: 16px;
   font-weight: bold;
   border-radius: 5px;
@@ -145,6 +154,12 @@ body {
 
 .footer_bg {
   background-color: var(--Gris_oscuro);
+}
+
+.bg_card_desastres {
+  color: var(--Verde_esmeralda);
+  background-color: var(--Gris_pizarra);
+  border-top: 2px solid var(--Rosa_cuarzo);
 }
 
 .parrafos_informacion {
@@ -186,10 +201,10 @@ body {
 
 .input {
   width: 100%;
-  border-radius: 4px;
   background-color: transparent;
   border: none;
   border-bottom: 1px solid var(--Amarillo_dorado);
+  border-left: 1px solid var(--Amarillo_dorado);
   color: greenyellow;
   margin: 5px auto;
   padding: 1rem;
@@ -233,4 +248,72 @@ body {
   word-wrap: break-word;
   font-size: 1.5rem;
   line-height: 1.5;
+}
+
+.modal-header {
+  font-family: "Geist Mono";
+  font-weight: 900;
+  font-size: 1rem;
+  color: var(--Blanco_humo);
+}
+
+.texto_v_modal {
+  font-family: "Geist Mono";
+  font-weight: 500;
+  color: var(--Azul_grisáceo);
+  letter-spacing: 0.2rem;
+  text-align: justify;
+  font-size: 2rem;
+}
+
+.subtitulos_v_modal {
+  color: var(--Amarillo_suave);
+  font-family: "Geist Mono";
+  font-weight: 900;
+  font-size: 2.5rem;
+}
+
+.texto_fotos {
+  font-family: "Geist Mono";
+  font-weight: 100;
+  font-size: 1.3rem;
+  text-align: justify;
+}
+
+.v_modal_h3 {
+  color: var(--Verde_bosque);
+  font-family: "Geist Mono";
+  font-weight: 500;
+  font-size: 1.9rem;
+}
+
+.texto_pre_v_modal {
+  font-family: "Geist Mono";
+  font-weight: 500;
+  color: var(--Azul_lavanda);
+  letter-spacing: 0.1rem;
+  text-align: justify;
+  font-size: 1.5rem;
+}
+
+.subtitulos_v_modal_pre {
+  color: var(--Amarillo_suave);
+  font-family: "Geist Mono";
+  font-weight: 900;
+  font-size: 2.5rem;
+}
+
+.texto_negrita_pre_v_modal {
+  font-family: "Geist Mono";
+  font-weight: 700;
+  color: var(--Naranja_coral);
+  letter-spacing: 0.1rem;
+  text-align: justify;
+  font-size: 1.9rem;
+}
+
+.bg_cards_pre {
+  background-color: var(--oscuro);
+  border: 1px solid var(--Beige_arena);
+  color: var(--Gris_claro);
 }
